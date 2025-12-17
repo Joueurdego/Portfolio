@@ -19,17 +19,19 @@
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #5b5b5b;
+    background-color: #198754;
 }
+
 
 /* hero background image */
 .bgimage {
-    height: 100vh;
+    height: 50vh;
     max-height: 900px;
-    background: url("images/image1.jpg");
+    background: url("images/background.png");
     background-size: cover;
     position: relative;
 }
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -44,6 +46,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    
 }
 
 /* about */
@@ -77,10 +80,10 @@
     text-align: center;
 }
 .card:hover .skillsIcon {
-    color: #008000;
+    color: #198754;
 }
 .skillsText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #198754;
 }
 
 /* portfolio */
