@@ -3,18 +3,21 @@
         "image": "image1.png",
         "title": "Booki",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "link": "https://github.com/Joueurdego/Bookie.git",
+        "alt": "Image du projet Booki"
     },
     {
         "image": "image2.png",
         "title": "Mon Vieux grimoire",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "link": "#",
+        "alt": "Image du projet Mon Vieux grimoire"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "link": "https://github.com/Joueurdego/Kasa.git",
+        "alt": "Image du projet Kasa"
     }
 ]
