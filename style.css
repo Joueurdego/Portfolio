@@ -21,6 +21,10 @@
 .navbarScroll.navbarDark {
     background-color: #198754;
 }
+.navbar-brand, .navbar-nav{
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
+}
+
 
 
 /* hero background image */
