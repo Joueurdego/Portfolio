@@ -37,7 +37,7 @@
 .bgimage {
     height: 50vh;
     max-height: 50vh;
-    background: url("images/background.png");
+    background: url("images/background.webp");
     background-size: cover;
     position: relative;
      text-shadow: 0px 0px 8px rgba(1, 1, 1, 1);
