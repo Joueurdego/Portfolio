@@ -70,7 +70,7 @@
 
 /* skills */
 .skillsText.card {
-    height: 350px;
+    height: 380px;
     cursor: pointer;
 }
 .skillsText img {
@@ -99,6 +99,11 @@
 /* portfolio */
 #portfolio p {
     text-align: center;
+}
+
+.card-img-top {
+    max-width: 694px;
+    max-height: 275px;
 }
 
 /* contact */
