@@ -8,7 +8,7 @@
     },
 
     {
-        "image": "image3.webp",
+        "image": "image3-small.webp",
         "title": "Kasa",
         "text": "Refonte totale de la plateforme de location immobilière Kasa en React.",
         "link": "https://github.com/Joueurdego/Kasa.git",

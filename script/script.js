@@ -10,7 +10,6 @@ function handleNavbarScroll() {
         }
     };
 }
-
 // Function to handle navbar collapse on small devices after a click
 function handleNavbarCollapse() {
     const navLinks = document.querySelectorAll(".nav-item");
@@ -22,7 +21,6 @@ function handleNavbarCollapse() {
         });
     });
 }
-
 // Function to dynamically create HTML elements from the JSON file
 function createSkillsFromJSON() {
     const container = document.querySelector("#skills .container");
@@ -46,10 +44,8 @@ function createSkillsFromJSON() {
                         </div>
                     </div>
                 `;
-
                 // Append the card to the current row
                 row.appendChild(card);
-
                 // If the index is a multiple of 3 or it's the last element, create a new row
                 if ((index + 1) % 3 === 0 || index === data.length - 1) {
                     container.appendChild(row);
@@ -85,7 +81,6 @@ function createPortfolioFromJSON() {
                     </div>
                 </div>
                 `;
-
                 // Append the card to the current row
                 row.appendChild(card);
 
@@ -98,7 +93,6 @@ function createPortfolioFromJSON() {
             });
         });
 }
-
 // Call the functions to execute the code
 handleNavbarScroll();
 handleNavbarCollapse();
