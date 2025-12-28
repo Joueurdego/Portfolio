@@ -2,7 +2,7 @@
     {
         "image": "image1.webp",
         "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text": "Réalisation de l'interface web Booki pour la recherche d'hébergements touristiques, en HTML/CSS.",
         "link": "https://github.com/Joueurdego/Bookie.git",
         "alt": "Projet Booki"
     },
@@ -10,7 +10,7 @@
     {
         "image": "image3.webp",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text": "Refonte totale de la plateforme de location immobilière Kasa en React.",
         "link": "https://github.com/Joueurdego/Kasa.git",
         "alt": "Projet Kasa"
     }
