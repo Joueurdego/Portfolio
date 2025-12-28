@@ -1,20 +1,3 @@
-/* Optimisation du chargement des icônes Font Awesome */
-@font-face {
-    font-family: 'Font Awesome 5 Free';
-    font-style: normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'Font Awesome 5 Brands';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.woff2") format("woff2");
-}
-
 /******* GENERAL *******/
 /* spacing on all sections */
 #about,
@@ -54,14 +37,7 @@
 .bgimage {
     height: 50vh;
     max-height: 50vh;
-    background-image: -webkit-image-set(
-        url("images/background-small.webp") 1x,
-        url("images/background.webp") 2x
-    );
-    background-image: image-set(
-        url("images/background-small.webp") 1x,
-        url("images/background.webp") 2x
-    );
+    background: url("images/background.webp");
     
     background-size: cover;
     position: relative;
@@ -133,6 +109,7 @@
 }
 
 .card-img-top {
+    width: 25vw;
     max-width: 694px;
     max-height: 275px;
 }
@@ -148,3 +125,12 @@
 }
 
 /* footer */
+
+
+@media (max-width: 992px) {
+    .bgimage {
+        background-image: url("images/background-small.webp");
+    }
+
+
+}
