@@ -45,14 +45,13 @@
     max-height: 50vh;
     background: url("images/background.webp") 0 0/cover;
     position: relative;
-    text-shadow: 0 0 8px #010101
 }
 
 .bgimage::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.6);
+   
 }
 
 .hero_title {
