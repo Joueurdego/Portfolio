@@ -48,6 +48,13 @@
     text-shadow: 0 0 8px #010101
 }
 
+.bgimage::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
 .hero_title {
     font-size: 4.5rem
 }
