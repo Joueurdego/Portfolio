@@ -26,7 +26,7 @@
 }
 
 .navbarScroll.navbarDark {
-    background-color: rgb(11, 48, 11)
+    background-color: #0b300b
 }
 
 .navbar-brand,
@@ -44,9 +44,8 @@
     height: 50vh;
     max-height: 50vh;
     background: url("images/background.webp") 0 0/cover;
-    position: relative;
+    position: relative
 }
-
 
 .hero_title {
     font-size: 4.5rem
@@ -63,9 +62,9 @@
     transform: translate(-50%, -50%);
     color: #fff;
     z-index: 1;
-    background-color: rgba(0,0,0,0.65);
+    background-color: rgba(0, 0, 0, .65);
     padding: 1.5rem 2rem;
-    border-radius: 8px;
+    border-radius: 8px
 }
 
 .imageAboutPage {
@@ -81,7 +80,7 @@
 }
 
 .skillsText.card {
-    height: 380px;
+    height: 380px
 }
 
 .skillsText img {
@@ -121,5 +120,4 @@
     .bgimage {
         background-image: url("images/background-small.webp")
     }
-    
 }

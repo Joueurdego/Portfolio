@@ -1,6 +1,6 @@
 [
     {
-        "image": "image1.webp",
+        "image": "Booki.webp",
         "title": "Booki",
         "text": "Réalisation de l'interface web Booki pour la recherche d'hébergements touristiques, en HTML/CSS.",
         "link": "https://github.com/Joueurdego/Bookie.git/",
@@ -8,7 +8,7 @@
     },
 
     {
-        "image": "image3-small.webp",
+        "image": "Kasa.webp",
         "title": "Kasa",
         "text": "Refonte totale de la plateforme de location immobilière Kasa en React.",
         "link": "https://github.com/Joueurdego/Kasa.git/",
