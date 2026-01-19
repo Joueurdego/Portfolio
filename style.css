@@ -26,18 +26,22 @@
 }
 
 .navbarScroll.navbarDark {
-    background-color: #0b300b
+    background-color: #54A7F8
 }
 
 .navbar-brand,
 .navbar-nav {
-    text-shadow: 0 0 8px rgba(0, 0, 0, .5)
+    text-shadow: 0 0 8px rgba(0, 0, 0, .1)
 }
-
+.nav-link:hover {
+    text-decoration: underline;
+    transition: .4s;
+}
+    
 .navbar {
-    background-color: rgba(0, 0, 0, .9);
+    background-color: transpa;
     transition: background-color .4s;
-    position: fixed
+
 }
 
 .bgimage {
@@ -60,9 +64,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: black;
     z-index: 1;
-    background-color: rgba(0, 0, 0, .65);
     padding: 1.5rem 2rem;
     border-radius: 8px
 }
@@ -96,13 +99,28 @@
 
 .card:hover .skillsIcon,
 .contactColumn i {
-    color: #198754
+    color: #54A7F8
 }
 
-.skillsText:hover {
-    border: 1px solid #198754
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: black !important;
 }
 
+.skillsText {
+    border: 2px solid #54A7F8 !important
+}
+
+
+.btn-success{
+    background-color: #54A7F8 !important;
+    border-color: #54A7F8 !important;
+}
+
+.btn-success:hover{
+    background-color: #3a8de0 !important;
+    border-color: #3a8de0 !important;
+}
 .card-img-top {
     width: 100%;
     height: auto;
@@ -120,4 +138,11 @@
     .bgimage {
         background-image: url("images/background-small.webp")
     }
+.navbar {
+    background-color: #54A7F8;
+
+}
+.bgimage {
+  margin-top: 3rem; /* Ajuste selon la hauteur de ta navbar */
+}
 }
