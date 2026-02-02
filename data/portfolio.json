@@ -6,12 +6,18 @@
         "link": "https://github.com/Joueurdego/Bookie.git/",
         "alt": "Projet Booki"
     },
-
     {
         "image": "Kasa.webp",
         "title": "Kasa",
         "text": "Refonte totale de la plateforme de location immobilière Kasa en React.",
         "link": "https://github.com/Joueurdego/Kasa.git/",
         "alt": "Projet Kasa"
+    },
+    {
+        "image": "SophieBluel.png",
+        "title": "Sophie Bluel",
+        "text": "Réalisation de l'interface web Sophie Bluel pour la présentation d'une architecture d'entreprise.",
+        "link": "https://github.com/Joueurdego/Portfolio-architecte-sophie-bluel-master.git",
+        "alt": "Projet Sophie Bluel"
     }
 ]
